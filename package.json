@@ -1,0 +1,32 @@
+{
+  "name": "parler",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "build": "build"
+  },
+  "dependencies": {
+    "array-tools": "1.8.6",
+    "bcrypt-nodejs": "0.0.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "file-system": "^2.2.2",
+    "formidable": "^1.2.1",
+    "guid": "0.0.12",
+    "http-errors": "~1.6.2",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.13",
+    "morgan": "~1.9.0",
+    "mv": "2.1.1",
+    "request": "2.88.0",
+    "time-ago": "0.2.1"
+  },
+  "description": "A simple chat application built in Node.js",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Divy Srivastava <dj.srivastava23@gmail.com>",
+  "license": "MIT"
+}

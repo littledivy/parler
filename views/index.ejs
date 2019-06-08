@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Parler - Home</title>
+    <%- include('includes') %>
+  </head>
+  <body>
+    <div class="container" style="display:none;" id="chat-div">
+      <div class="chat-box">
+
+      </div>
+      <div id="typing"></div>
+      <input type="text" class="form-control navbar-fixed-bottom" style="height:50px;border-radius:0px;" placeholder="Say something..." id="msg_box">
+    </div>
+    <div class="col-sm-6 col-sm-offset-3 centered" id="login-div">
+      <p class="sign-in-text">
+        Sign in to use <strong>Parler</strong>
+      </p><br>
+      <input type="text" class="form-control" id="username" placeholder="Enter your name here">
+    </div>
+  </body>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/socket.io.js"></script>
+  <script src="/assets/js/index.js"></script>
+</html>
